@@ -9,8 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var text = ""
+    
     var body: some View {
-        Text("Hello, World!")
+    
+        VStack(alignment: .center){
+            HeaderView()
+            SignUpText()
+            SignUpDetails()
+            BottomView()
+        }
+        .frame(minWidth: 0, idealWidth: .infinity, maxWidth: .infinity, minHeight: 0, idealHeight: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .background(Color("bloodyRed").edgesIgnoringSafeArea(.all))
+        
     }
 }
 

@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37A9D1B02466F96400098CBE /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9D1AF2466F96400098CBE /* SignUpButton.swift */; };
+		37A9D1B3246701D400098CBE /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9D1B2246701D400098CBE /* BottomView.swift */; };
 		37C7E1BD2466B92400CCC61A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E1BC2466B92400CCC61A /* AppDelegate.swift */; };
 		37C7E1BF2466B92400CCC61A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E1BE2466B92400CCC61A /* SceneDelegate.swift */; };
 		37C7E1C12466B92400CCC61A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E1C02466B92400CCC61A /* ContentView.swift */; };
 		37C7E1C32466B92500CCC61A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C7E1C22466B92500CCC61A /* Assets.xcassets */; };
 		37C7E1C62466B92500CCC61A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C7E1C52466B92500CCC61A /* Preview Assets.xcassets */; };
 		37C7E1C92466B92500CCC61A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C7E1C72466B92500CCC61A /* LaunchScreen.storyboard */; };
+		37C7E1D42466CA4000CCC61A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E1D32466CA4000CCC61A /* HeaderView.swift */; };
+		37C7E1D72466CB7800CCC61A /* SignUpText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E1D62466CB7800CCC61A /* SignUpText.swift */; };
+		37C7E1DB2466D54A00CCC61A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E1DA2466D54A00CCC61A /* CustomTextField.swift */; };
+		37C7E1DD2466DCD600CCC61A /* SignUpDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C7E1DC2466DCD600CCC61A /* SignUpDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37A9D1AF2466F96400098CBE /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		37A9D1B2246701D400098CBE /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		37C7E1B92466B92400CCC61A /* SamplePinteresetLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePinteresetLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C7E1BC2466B92400CCC61A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C7E1BE2466B92400CCC61A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		37C7E1C52466B92500CCC61A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37C7E1C82466B92500CCC61A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37C7E1CA2466B92500CCC61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C7E1D32466CA4000CCC61A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		37C7E1D62466CB7800CCC61A /* SignUpText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpText.swift; sourceTree = "<group>"; };
+		37C7E1DA2466D54A00CCC61A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		37C7E1DC2466DCD600CCC61A /* SignUpDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37A9D1B1246701BD00098CBE /* BottomViews */ = {
+			isa = PBXGroup;
+			children = (
+				37A9D1B2246701D400098CBE /* BottomView.swift */,
+			);
+			path = BottomViews;
+			sourceTree = "<group>";
+		};
 		37C7E1B02466B92400CCC61A = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +76,13 @@
 		37C7E1BB2466B92400CCC61A /* SamplePinteresetLogin */ = {
 			isa = PBXGroup;
 			children = (
+				37C7E1C02466B92400CCC61A /* ContentView.swift */,
+				37C7E1D02466BE0100CCC61A /* HeaderView */,
+				37C7E1D52466CB5900CCC61A /* CenterView */,
+				37A9D1B1246701BD00098CBE /* BottomViews */,
+				37C7E1DE2466DF0E00CCC61A /* CustomViews */,
 				37C7E1BC2466B92400CCC61A /* AppDelegate.swift */,
 				37C7E1BE2466B92400CCC61A /* SceneDelegate.swift */,
-				37C7E1C02466B92400CCC61A /* ContentView.swift */,
 				37C7E1C22466B92500CCC61A /* Assets.xcassets */,
 				37C7E1C72466B92500CCC61A /* LaunchScreen.storyboard */,
 				37C7E1CA2466B92500CCC61A /* Info.plist */,
@@ -73,6 +97,32 @@
 				37C7E1C52466B92500CCC61A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37C7E1D02466BE0100CCC61A /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				37C7E1D32466CA4000CCC61A /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		37C7E1D52466CB5900CCC61A /* CenterView */ = {
+			isa = PBXGroup;
+			children = (
+				37C7E1D62466CB7800CCC61A /* SignUpText.swift */,
+				37C7E1DC2466DCD600CCC61A /* SignUpDetails.swift */,
+			);
+			path = CenterView;
+			sourceTree = "<group>";
+		};
+		37C7E1DE2466DF0E00CCC61A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				37C7E1DA2466D54A00CCC61A /* CustomTextField.swift */,
+				37A9D1AF2466F96400098CBE /* SignUpButton.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A9D1B3246701D400098CBE /* BottomView.swift in Sources */,
+				37C7E1D72466CB7800CCC61A /* SignUpText.swift in Sources */,
 				37C7E1BD2466B92400CCC61A /* AppDelegate.swift in Sources */,
 				37C7E1BF2466B92400CCC61A /* SceneDelegate.swift in Sources */,
 				37C7E1C12466B92400CCC61A /* ContentView.swift in Sources */,
+				37C7E1D42466CA4000CCC61A /* HeaderView.swift in Sources */,
+				37C7E1DD2466DCD600CCC61A /* SignUpDetails.swift in Sources */,
+				37C7E1DB2466D54A00CCC61A /* CustomTextField.swift in Sources */,
+				37A9D1B02466F96400098CBE /* SignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
